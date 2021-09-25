@@ -35,7 +35,7 @@ sections:
         style: secondary
     feature:
       type: ImageBlock
-      url: /images/dianne-ameter.jpg
+      url: /images/4.png
       altText: Image alt text
       caption: Image caption
   - type: FeaturedPostsSection
