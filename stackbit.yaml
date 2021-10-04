@@ -14,58 +14,58 @@ objectTypeKey: type
 models:
   HeroSection:
     type: object
-label: Hero section
-variantField: variant
-extends:
-  - Section
-fields:
-  - type: enum
-    name: variant
-    label: Arrangement
-    controlType: thumbnails
-    options:
-      - label: Hero with feature on the right
-        value: variant-a
-        thumbnail: './images/HeroSection/Hero Section With Form on the Right.png'
-      - label: Hero with feature on the left
-        value: variant-b
-        thumbnail: './images/HeroSection/Hero Section With Image on the Right.png'
-      - label: Hero with feature at the top
-        value: variant-c
-        thumbnail: './images/HeroSection/Hero Section With Image at the Bottom.png'
-      - label: Hero with feature at the bottom
-        value: variant-d
-        thumbnail: './images/HeroSection/Hero Section With Form at the Bottom.png'
-    default: variant-a
-  - type: model
-    name: badge
-    label: Badge
-    models:
-      - Badge
-  - type: string
-    name: title
-    label: Title
-  - type: markdown
-    name: text
-    label: Text
-  - type: list
-    name: actions
-    label: Actions
-    items:
-      type: model
-      models:
-        - Button
-        - Link
-  - type: model
-    name: feature
-    label: Feature
-    models:
-      - FormBlock
-      - ImageBlock
-      - VideoBlock
-  - type: model
-    name: backgroundImage
-    label: Background image
-    models:
-      - ImageBlock
+    label: Hero section
+    variantField: variant
+    extends:
+      - Section
+    fields:
+      - type: enum
+        name: variant
+        label: Arrangement
+        controlType: thumbnails
+        options:
+          - label: Hero with feature on the right
+            value: variant-a
+            thumbnail: './images/HeroSection/Hero Section With Form on the Right.png'
+          - label: Hero with feature on the left
+            value: variant-b
+            thumbnail: './images/HeroSection/Hero Section With Image on the Right.png'
+          - label: Hero with feature at the top
+            value: variant-c
+            thumbnail: './images/HeroSection/Hero Section With Image at the Bottom.png'
+          - label: Hero with feature at the bottom
+            value: variant-d
+            thumbnail: './images/HeroSection/Hero Section With Form at the Bottom.png'
+        default: variant-a
+      - type: model
+        name: badge
+        label: Badge
+        models:
+          - Badge
+      - type: string
+        name: title
+        label: Title
+      - type: markdown
+        name: text
+        label: Text
+      - type: list
+        name: actions
+        label: Actions
+        items:
+          type: model
+          models:
+            - Button
+            - Link
+      - type: model
+        name: feature
+        label: Feature
+        models:
+          - FormBlock
+          - ImageBlock
+          - VideoBlock
+      - type: model
+        name: backgroundImage
+        label: Background image
+        models:
+          - ImageBlock
 
