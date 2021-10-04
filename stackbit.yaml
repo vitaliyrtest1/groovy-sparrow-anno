@@ -12,7 +12,7 @@ pagesDir: content/pages
 pageLayoutKey: layout
 objectTypeKey: type
 models:
-  HeroSection:
+  HeroSectionNew:
     type: object
     label: Hero section
     variantField: variant
